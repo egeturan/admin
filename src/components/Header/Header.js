@@ -45,7 +45,7 @@ import sender1 from "../../assets/people/a1.jpg";
 import sender2 from "../../assets/people/a5.jpg";
 import sender3 from "../../assets/people/a4.jpg";
 
-import avatar from "../../assets/people/a7.jpg";
+import avatar from "../../assets/people/ege.jpg";
 
 import s from "./Header.module.scss";
 import "animate.css";
@@ -218,7 +218,7 @@ class Header extends React.Component {
                 >
                   <img src={avatar} alt="..." />
                 </span>
-                <span className={`small d-sm-down-none ${s.accountCheck}`}>Philip smith</span>
+                <span className={`small d-sm-down-none ${s.accountCheck}`}>Ege Turan</span>
                 <Badge className={`d-sm-down-none ${s.badge}`} color="danger">
                   9
                 </Badge>
